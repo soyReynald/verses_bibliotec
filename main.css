@@ -1,0 +1,59 @@
+/***
+Basic reset
+**/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+main form fieldset label {
+    display: block;
+    margin: 0 5%;
+    font-weight: bold;
+}
+
+main form fieldset textarea, main form fieldset input {
+    margin: 0 5%;
+}
+
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+fieldset {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form textarea, form input {
+    border-radius: 3%; 
+    margin-top: 10px !important;
+    border-style: none;
+    border: 1px solid #000;
+}
